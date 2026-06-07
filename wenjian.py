@@ -2,12 +2,6 @@ import os
 import glob
 
 def super_search(root_dir, keyword, search_type='name'):
-    """
-    手机全盘暴力搜索工具
-    :param root_dir: 根目录 (如 '/storage/emulated/0')
-    :param keyword: 关键词 (全称或部分后缀，如 '.pdf')
-    :param search_type: 'name'(按名称) 或 'ext'(按后缀)
-    """
     matched_files = []
     # 设置一个上限，防止全盘扫描把手机卡死
     MAX_LIMIT = 500 
