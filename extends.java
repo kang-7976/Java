@@ -1,5 +1,3 @@
-import java.lang.Override;
-
 class Father {
   protected String name;
 
